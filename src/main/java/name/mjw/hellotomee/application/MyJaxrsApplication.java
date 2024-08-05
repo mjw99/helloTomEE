@@ -19,8 +19,7 @@ public class MyJaxrsApplication extends Application {
 	public MyJaxrsApplication(@Context ServletConfig servletConfig) {
 		super();
 
-		System.out.print("hello");
-		// singletons.add(new MyFirstRestController());
+		singletons.add(new HelloWorld());
 
 	}
 
