@@ -9,7 +9,7 @@
 	</welcome-file-list>
 
 	<servlet>
-		<servlet-name>OmniChem</servlet-name>
+		<servlet-name>hellotomee</servlet-name>
 		<servlet-class>org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher</servlet-class>
 		<init-param>
 			<param-name>jakarta.ws.rs.Application</param-name>
@@ -19,11 +19,6 @@
 
 	</servlet>
 
-	<servlet>
-		<servlet-name>Bootstrap</servlet-name>
-		<servlet-class>name.mjw.hellotomee.Bootstrap</servlet-class>
-		<load-on-startup>3</load-on-startup>
-	</servlet>
 
 </web-app>
 
