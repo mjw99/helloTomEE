@@ -7,18 +7,5 @@
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
-
-	<servlet>
-		<servlet-name>hellotomee</servlet-name>
-		<servlet-class>org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher</servlet-class>
-		<init-param>
-			<param-name>jakarta.ws.rs.Application</param-name>
-			<param-value>name.mjw.hellotomee.application.MyJaxrsApplication</param-value>
-		</init-param>
-		<load-on-startup>1</load-on-startup>
-
-	</servlet>
-
-
 </web-app>
 
