@@ -19,25 +19,18 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>org.apache.tomee</groupId>
-			<artifactId>jakartaee-api</artifactId>
-			<version>${tomee.api.version}</version>
-			<scope>provided</scope>
+                <dependency>
+                        <groupId>org.jboss.resteasy</groupId>
+                        <artifactId>resteasy-servlet-initializer</artifactId>
+                        <version>${resteasy.version}</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.jboss.resteasy</groupId>
-			<artifactId>resteasy-cdi</artifactId>
-			<version>${resteasy.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.jboss.resteasy</groupId>
-			<artifactId>resteasy-servlet-initializer</artifactId>
-			<version>${resteasy.version}</version>
-		</dependency>
-
+                <dependency>
+                        <groupId>org.apache.tomee</groupId>
+                        <artifactId>jakartaee-api</artifactId>
+                        <version>${tomee.api.version}</version>
+                        <scope>provided</scope>
+        </dependency>
 
 	</dependencies>
 
@@ -80,9 +73,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
-				<configuration>
-					<failOnMissingWebXml>false</failOnMissingWebXml>
-				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.tomee.maven</groupId>
