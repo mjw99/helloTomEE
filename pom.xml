@@ -21,18 +21,18 @@
 	<dependencies>
 
 
-                <dependency>
-                        <groupId>org.jboss.resteasy</groupId>
-                        <artifactId>resteasy-servlet-initializer</artifactId>
-                        <version>${resteasy.version}</version>
+		<dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-servlet-initializer</artifactId>
+			<version>${resteasy.version}</version>
 		</dependency>
 
-                <dependency>
-                        <groupId>org.apache.tomee</groupId>
-                        <artifactId>jakartaee-api</artifactId>
-                        <version>${tomee.api.version}</version>
-                        <scope>provided</scope>
-        </dependency>
+		<dependency>
+			<groupId>org.apache.tomee</groupId>
+			<artifactId>jakartaee-api</artifactId>
+			<version>${tomee.api.version}</version>
+			<scope>provided</scope>
+		</dependency>
 
 	</dependencies>
 
