@@ -82,10 +82,6 @@
 				<version>${tomee.version}</version>
 				<configuration>
 					<tomeeClassifier>webprofile</tomeeClassifier>
-					<libs>
-						<lib>org.postgresql:postgresql:42.7.3</lib>
-						<lib>com.oracle.database.jdbc:ojdbc11:21.13.0.0</lib>
-					</libs>
 					<context>ROOT</context>
 				</configuration>
 
