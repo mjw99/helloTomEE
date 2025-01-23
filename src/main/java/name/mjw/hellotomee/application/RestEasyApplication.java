@@ -8,7 +8,7 @@ import jakarta.ws.rs.ApplicationPath;
 
 @ApplicationPath("/foo")
 public class RestEasyApplication extends Application {
-	private Set<Class> classes = new HashSet<Class>();
+	private Set<Class<?>> classes = new HashSet<>();
 
 	public RestEasyApplication() {
 		classes.add(HelloWorld.class);
