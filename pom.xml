@@ -15,12 +15,9 @@
 		<resteasy.version>6.2.11.Final</resteasy.version>
 		<tomee.api.version>10.0</tomee.api.version>
 		<tomee.version>10.0.0</tomee.version>
-
 	</properties>
 
 	<dependencies>
-
-
 		<dependency>
 			<groupId>org.jboss.resteasy</groupId>
 			<artifactId>resteasy-servlet-initializer</artifactId>
@@ -33,12 +30,9 @@
 			<version>${tomee.api.version}</version>
 			<scope>provided</scope>
 		</dependency>
-
 	</dependencies>
 
 	<build>
-
-
 		<pluginManagement>
 			<plugins>
 				<plugin>
@@ -84,7 +78,6 @@
 					<tomeeClassifier>webprofile</tomeeClassifier>
 					<context>ROOT</context>
 				</configuration>
-
 			</plugin>
 		</plugins>
 	</build>
